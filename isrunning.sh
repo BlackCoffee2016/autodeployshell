@@ -5,4 +5,4 @@
 # 参数：
 # $1 进程UUID（推荐）或finalName（不推荐）
 
-ssh 10.230.10.26 -l root -i /wucao/auto_deploy/pem/10_26.pem  "ps -ef | grep $1 | grep -v grep"
+ssh 1.1.1.10 -l root -i /wucao/auto_deploy/pem/10_26.pem  "ps -ef | grep $1 | grep -v grep"
